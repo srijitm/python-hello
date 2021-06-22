@@ -6,8 +6,7 @@ app = Flask(__name__)
 
 @app.route('/health')
 def health():
-  status = {'health': 'pass'}
-  return status
+  return 'Healthy!'
 
 @app.route('/hello/<name>')
 def hello(name):
