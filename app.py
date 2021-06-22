@@ -1,6 +1,4 @@
 from flask import Flask, request, redirect, Response, jsonify
-from gallery import gallery
-import base64
 
 PORT = 8080
 
